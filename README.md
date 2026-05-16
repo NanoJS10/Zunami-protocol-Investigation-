@@ -5,14 +5,16 @@
 
 ---
 
-**Case Reference** : ZNM-NANOJS02-INV
-**Investigator**   : NanoJS
-**Incident Date**  : January 2023 – May 2025
-**Report Date**    : May 16, 2026
-**Classification** : Public Research
-**Tools Used**     : Etherscan.io | MetaSleuth.io
-**Blockchain**     : Ethereum Mainnet
-**Status**         : ACTIVE — Subject wallets operational as of May 2, 2026
+| Field | Details |
+|-------|---------|
+| **Case Reference** | ZNM-NANOJS02-INV |
+| **Investigator** | NanoJS |
+| **Incident Date** | January 2023 – May 2025 |
+| **Report Date** | May 16, 2026 |
+| **Classification** | Public Research |
+| **Tools Used** | Etherscan.io · MetaSleuth.io |
+| **Blockchain** | Ethereum Mainnet |
+| **Status** | ACTIVE — Subject wallets operational as of May 2, 2026 |
 
 ---
 
