@@ -333,6 +333,108 @@ F7: 0xbf03b63adb606901a3d6db1b7b47ba17682267cd7468f510a87c5ca18a01ef8a
 | MEDIUM | Rekt.news | rekt.news | Public disclosure |
 
 ---
+## EXCHANGE RESPONSES & INVESTIGATION UPDATES
+
+---
+
+### UPDATE — May 17, 2026
+
+Following the public release of this investigation report and
+direct submissions to all identified exchanges, two exchanges
+have formally responded.
+
+---
+
+### ByBit — Response Received
+
+**Date:** May 17, 2026
+**Status:** Acknowledged — Directed to Law Enforcement Channel
+
+ByBit Support acknowledged receipt of the forensic report and
+confirmed they are committed to cooperating with authorized law
+enforcement agencies. They directed that law enforcement contact
+them directly at their dedicated channel.
+
+Confirmed ByBit law enforcement contact:
+```
+Email : law_enforcement@bybit.com
+```
+
+This confirmation has been forwarded to the FBI IC3 complaint
+(Case Reference: ZNM-NANOJS02-INV) to assist with formal
+law enforcement contact.
+
+Evidence:
+![ByBit Response](evidence/screenshots/bybit_response.png)
+
+---
+
+### Coinbase — Response Received
+
+**Date:** May 17, 2026
+**Status:** Active Review — Sr. Director Engaged
+
+A Senior Director at Coinbase personally reviewed the submitted
+forensic report and responded directly. The response reviewed
+the transaction activity of the identified staging wallet
+`0xF00d0e11AcCe1eA37658f428d947C3FFFAeaDe70` and assessed its
+on-chain behavior.
+
+A follow-up clarification was submitted redirecting the review
+to the five Coinbase hot wallet addresses that directly received
+exploit proceeds — totaling approximately 96 ETH deposited
+between November 2023 and October 2025.
+
+The five Coinbase receiving addresses under active review:
+```
+1. 0xb739d0895772dbb71a89a3754a160269068f0d45 | 21.354 ETH | 2023-11-10
+2. 0x77696bb39917C91A0c3908D577d5e322095425cA | 16.955 ETH | 2024-02-08
+3. 0x95A9bd206aE52C4BA8EecFc93d18EACDd41C88CC |  7.460 ETH | 2024-03-25
+4. 0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43 | 23.291 ETH | 2024-07-11
+5. 0xb5d85CBf7cB3EE0D56b3bB207D5Fc4B82f43F511 |  6.162 ETH | 2025
+```
+
+Evidence:
+![Coinbase Response](evidence/screenshots/coinbase_response.png)
+
+---
+
+### Current Investigation Status
+
+| Body | Submission Date | Response | Status |
+|------|----------------|----------|--------|
+| ByBit | May 16, 2026 | ✅ Received | Directed to LE |
+| Coinbase | May 16, 2026 | ✅ Received | Active review |
+| Binance | May 16, 2026 | Pending | — |
+| OKX | May 16, 2026 | Pending | — |
+| FBI IC3 | May 16, 2026 | Filed | Complaint active |
+| INTERPOL | May 16, 2026 | Pending | — |
+| Chainalysis | May 16, 2026 | Pending | — |
+| TRM Labs | May 16, 2026 | Pending | — |
+
+---
+
+### How To Help
+
+If you are a law enforcement officer, blockchain security
+researcher, or have additional information on any of the
+wallets identified in this investigation, please open a
+GitHub Issue or contact via the details below.
+
+Law enforcement agencies are encouraged to contact exchanges
+directly using the confirmed channels above and reference:
+
+```
+Case Reference : ZNM-NANOJS02-INV
+FBI IC3        : Complaint filed May 16, 2026
+Full Report    : [This repository URL]
+```
+
+---
+
+*Last updated: May 17, 2026*
+*All on-chain data verifiable at etherscan.io*
+---
 
 ## DISCLAIMER
 
