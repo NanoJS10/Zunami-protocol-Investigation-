@@ -8,7 +8,7 @@
 | **Case Reference** | ZNM-NANOJS02-INV |
 | **Investigator** | NanoJS10 |
 | **Incident Date** | January 2023 – May 2025 |
-| **Report Date** | June 17, 2026 |
+| **Report Date** | July 2026 |
 | **Classification** | Public Research |
 | **Tools Used** | Etherscan.io · MetaSleuth.io |
 | **Blockchain** | Ethereum Mainnet |
@@ -20,9 +20,9 @@
 
 This repository documents an independent blockchain forensic investigation into the Zunami Protocol exploits of 2023 and 2025. All data was sourced exclusively from publicly available Ethereum blockchain records.
 
-The investigation successfully traced stolen funds from the exploit wallet through Tornado Cash, across multiple intermediate wallets, and into verified centralized exchange accounts all holding mandatory KYC records.
+The investigation successfully traced stolen funds from the exploit wallet through Tornado Cash, across multiple intermediate wallets, and into verified centralized exchange accounts — all holding mandatory KYC records.
 
-This investigation has been accepted for publication by **Rekt News** under a new editorial category they created specifically for this work: **Chain of Evidence** stories where forensics have been packaged, exchanges have been notified, and the next move belongs to law enforcement.
+This investigation has been accepted for publication by **Rekt News** under a new editorial category they created specifically for this work: **Chain of Evidence** — stories where forensics have been packaged, exchanges have been notified, and the next move belongs to law enforcement.
 
 **Total documented losses: ~$2,969,000 (1,562 ETH)**
 
@@ -37,13 +37,13 @@ sterx.eth funded the Zunami Protocol deployer wallet at launch, continues to rec
 ENS lookup confirms sterx.eth resolves to `0xF9605D8c4c987d7Cb32D0d11FbCb8EeeB1B22D5d`, which also controls **zunamidao.eth**. Rekt News independently confirmed sterx.eth as the Zunami CEO (@kirill_zunami) in their June 2025 Rekt II article. The Zunami Deployer sent 0.014 ETH directly to this wallet on **April 26, 2026** — confirming shared custody.
 
 ### 3. Attack Was Pre-Planned — 143-Day Staging Chain
-The 2023 exploit was funded via OKX and Binance 143 days before the attack. The OKX-funded staging wallet (Wallet A) was not merely pre-staged it was **actively used as a swap intermediary on the day of the exploit itself**, routing USDT through the 0x Exchange Proxy back to the exploiter. Deliberate advance staging using two separate CEX accounts is inconsistent with opportunistic exploitation.
+The 2023 exploit was funded via OKX and Binance 143 days before the attack. The OKX-funded staging wallet (Wallet A) was not merely pre-staged — it was **actively used as a swap intermediary on the day of the exploit itself**, routing USDT through the 0x Exchange Proxy back to the exploiter. Deliberate advance staging using two separate CEX accounts is inconsistent with opportunistic exploitation.
 
 ### 4. Five CEX Identity Trails Available
-Binance, OKX, Coinbase, and ByBit all hold KYC-verified identity records directly linked to this exploit chain all accessible via formal legal process.
+Binance, OKX, Coinbase, and ByBit all hold KYC-verified identity records directly linked to this exploit chain — all accessible via formal legal process.
 
 ### 5. Repeat Pattern Confirmed — May 14, 2025
-The identical deployer-to-exploiter pattern repeated on May 14, 2025. The Zunami Deployer granted admin roles to two privileged contracts within 12 seconds. Six minutes later, the attacker drained both contracts. The entire operation from role grant to final Tornado Cash deposit completed in **29 minutes 24 seconds**.
+The identical deployer-to-exploiter pattern repeated on May 14, 2025. The Zunami Deployer granted admin roles to two privileged contracts within 12 seconds. Six minutes later, the attacker drained both contracts. The entire operation — from role grant to final Tornado Cash deposit — completed in **29 minutes 24 seconds**.
 
 ### 6. Operation Remains Active
 Subject confirmed active on-chain as recently as May 2026. Both the Zunami Deployer and sterx.eth wallet are actively transacting.
@@ -95,7 +95,7 @@ DATE : 2023-03-23 08:36:35 UTC | Block 16889095
 | 96 | 2023-05-27 | 34.998 ETH Binance→Wallet A | `0x27f5665edacc30a7bae57d27e964272087b7b9f8276c468a48b6b6fe13e653a1` |
 | 107 | 2023-06-06 | 1.41 ETH Wallet A→B | `0x216f1585d7e921c3fb5008a28ef8f09dadc69d214a8235cb7b7b90bd7a969af9` |
 | 136 | 2023-07-07 | 3.88 ETH Wallet A→B | `0x297ca310dbe55b65a3b86a3fd5a88924c8dbdfc4835bfbe936d8fb7b3ce92bba` |
-| 143 | 2023-08-06 | 5.19 ETH Wallet A→B (final staging) | `0x6317de0fc0aacbbe8a95fb846001452ddd7746c25056cc9128bcbae069656ef2` |
+| 143 | 2023-08-06 | 5.19 ETH Wallet A→B (final staging) | `0x74454ddcdea146a6a0006acc1cef4adf9142475037f9c52ea517f7493cf05e7c` |
 | 143 | 2023-08-13 | 1,265 USDT Exploiter via Wallet A | `0x76b70f7c6a9a58388ffa98be0ff2b68f97c05237686693c5cf1c92da29dd713f` |
 | 143 | 2023-08-13 | 1,152 ETH stolen — PRIMARY | `0x2aec4fdb2a09ad4269a410f2c770737626fb62c54e0fa8ac25e8582d4b690cca` |
 | 143 | 2023-08-13 | ~26 ETH stolen — SECONDARY | `0x0788ba222970c7c68a738b0e08fb197e669e61f9b226ceec4cab9b85abe8cceb` |
@@ -188,11 +188,11 @@ GAP  : 6 minutes 36 seconds
 
 | Exchange | Hot Wallet | Amount | Date | Notes |
 |----------|------------|--------|------|-------|
-| Binance | `0x564286362092D8e7936f0549571a803B203aAceD` | 4.995 ETH | 2020-08-22 | To sterx.eth |
-| Binance | `0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE` | 12.72 ETH | 2020-08-22 | To sterx.eth |
+| Binance | `0x564286362092D8e7936f0549571a803B203aAceD` | 12.71 ETH | 2020-08-22 | To sterx.eth (tx: 0xf46c03f33110ad986dd9ee3d9ab1ff274933d17710c736cfcbb5ee9664cf3fd0) |
+| Binance | `0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE` | 4.995 ETH | 2020-08-22 | To sterx.eth (tx: 0x4694566855ce96809a9266d9cfa64e30fea5843234089c84771757b8843e1d29) |
 | Binance | `0x4976A4A02f38326660D17bf34b431dC6e2eb2327` | 34.99 ETH | 2023-05-27 | To Wallet A — pre-staging |
 | OKX | `0x4E7b110335511F662FDBB01bf958A7844118c0D4` | 15.999 ETH | 2023-03-23 | To Wallet A — Day 1 of 143 |
-| Coinbase | `0xb739d0895772dbb71a89a3754a160269068f0d45` | 21.354 ETH | 2023-11-10 | Exploit proceeds |
+| Coinbase | `0x10e3d0699b2eFa3Af238B88bbFEecc971BcCbf83` | 21.354 ETH | 2023-11-10 | Exploit proceeds — Coinbase Dep address |
 | Coinbase | `0x77696bb39917C91A0c3908D577d5e322095425cA` | 16.955 ETH | 2024-02-08 | Exploit proceeds |
 | Coinbase | `0x95A9bd206aE52C4BA8EecFc93d18EACDd41C88CC` | 7.460 ETH | 2024-03-25 | Exploit proceeds |
 | Coinbase | `0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43` | 23.291 ETH | 2024-07-11 | Exploit proceeds |
@@ -251,7 +251,7 @@ B1: 0x1b315017748bf8b7aca7d58771e172e88a5d9b08a972f8f7027dc7014433b5cb  [OKX →
 B2: 0x27f5665edacc30a7bae57d27e964272087b7b9f8276c468a48b6b6fe13e653a1  [Binance → Wallet A — Day 96]
 B3: 0x216f1585d7e921c3fb5008a28ef8f09dadc69d214a8235cb7b7b90bd7a969af9  [Wallet A → B — Day 107]
 B4: 0x76b70f7c6a9a58388ffa98be0ff2b68f97c05237686693c5cf1c92da29dd713f  [Exploit-day link — Wallet A used]
-B5: 0x6317de0fc0aacbbe8a95fb846001452ddd7746c25056cc9128bcbae069656ef2  [Final staging — Day 143]
+B5: 0x74454ddcdea146a6a0006acc1cef4adf9142475037f9c52ea517f7493cf05e7c  [Final staging — Day 143 — 5.19 ETH Wallet A→B]
 ```
 
 ### Phase 3 — Exploit and Tornado Cash
@@ -300,16 +300,16 @@ F7: 0xbf03b63adb606901a3d6db1b7b47ba17682267cd7468f510a87c5ca18a01ef8a
 
 ## EXCHANGE RESPONSES AND INVESTIGATION UPDATES
 
-### UPDATE — June 17, 2026
+### UPDATE — July 2026
 
-Investigation report delivered to Rekt News. Chain of Evidence category created.
+Three corrections applied following independent verification by Rekt News during publication review. All transaction hashes and addresses now independently verified on Etherscan.
 
 ---
 
 ### ByBit — Response Received
 
 **Date:** May 17, 2026
-**Status:** Acknowledged Directed to Law Enforcement Channel
+**Status:** Acknowledged — Directed to Law Enforcement Channel
 
 ByBit Support acknowledged receipt of the forensic report and confirmed cooperation with authorized law enforcement agencies.
 
@@ -324,10 +324,10 @@ Law Enforcement Contact: law_enforcement@bybit.com
 **Date:** May 17, 2026
 **Status:** Active Review — Sr. Director Engaged
 
-A Senior Director at Coinbase personally reviewed the submitted forensic report. The five Coinbase hot wallet addresses under active review:
+A Senior Director at Coinbase personally reviewed the submitted forensic report. The five Coinbase deposit addresses under active review:
 
 ```
-1. 0xb739d0895772dbb71a89a3754a160269068f0d45  |  21.354 ETH  |  2023-11-10
+1. 0x10e3d0699b2eFa3Af238B88bbFEecc971BcCbf83  |  21.354 ETH  |  2023-11-10
 2. 0x77696bb39917C91A0c3908D577d5e322095425cA  |  16.955 ETH  |  2024-02-08
 3. 0x95A9bd206aE52C4BA8EecFc93d18EACDd41C88CC  |   7.460 ETH  |  2024-03-25
 4. 0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43  |  23.291 ETH  |  2024-07-11
@@ -354,7 +354,7 @@ A Senior Director at Coinbase personally reviewed the submitted forensic report.
 
 ---
 
-## CURRENT WALLET STATUS — JUNE 2026
+## CURRENT WALLET STATUS — JULY 2026
 
 | Wallet | Address | Balance | Last Active | Status |
 |--------|---------|---------|-------------|--------|
@@ -409,5 +409,5 @@ This investigation was conducted voluntarily in the public interest to assist po
 ---
 
 *Case Reference: ZNM-NANOJS02-INV | Investigator: NanoJS10*
-*Report Date: June 17, 2026 | Blockchain: Ethereum Mainnet*
+*Report Date: July 2026 | Blockchain: Ethereum Mainnet*
 *Verify all data: etherscan.io | metasleuth.io*
